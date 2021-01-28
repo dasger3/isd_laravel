@@ -1,0 +1,123 @@
+header {
+	font-family: "Roboto Condensed",Georgia,serif;
+}
+body {
+	font-family: "Roboto Condensed",Georgia,serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.heading_category_1 {
+    color: white;
+    font-size: 40px;
+}
+.heading_category_2 {
+    color: white;
+    font-size: 34px;
+    margin: 0;
+    text-align: justify;
+}
+.heading_category_3 {
+    font-size: 28px;
+    text-align: justify;
+}
+.main {
+    max-width: 1920px;
+    width: 100%;
+    height: calc(100vh - 30px - 5.8vw);
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.main_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    height: auto;
+    background-color: rgb(25, 45, 78,0.8);
+    position: absolute;
+    left: 15%;
+    padding: 0px 25px 25px 25px;
+}
+.container_content_i {
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+
+.main_block_u {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
+    height: 15vw;
+    background-color: rgb(25, 45, 78,0.8);
+    position: absolute;
+    left: 15%;
+    padding: 10px;
+    text-align: center;
+}
+.main_block_u2 {
+    right: 15%;
+    left:auto;
+}
+
+@media (max-width: 1600px){
+    .heading_category_1 {
+        font-size: 36px;
+    }
+    .heading_category_2 {
+        font-size: 30px;
+    }
+    .heading_category_3 {
+        font-size: 24px;
+    }
+}
+@media (max-width: 1600px){
+    .main_block {
+        width: 45%;
+    }
+    .heading_category_1 {
+        font-size: 32px;
+    }
+    .heading_category_2 {
+        font-size: 26px;
+    }
+    .heading_category_3 {
+        font-size: 22px;
+    }
+}
+@media (max-width: 1100px){
+    .main_block {
+        width: 90%;
+        left: auto;
+    }
+    .container_content_i {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .heading_category_1 {
+        font-size: 38px;
+    }
+    .heading_category_2 {
+        font-size: 34px;
+    }
+    .heading_category_3 {
+        font-size: 32px;
+    }
+    .main_block_u {
+        left: 5%;
+    }
+    .main_block_u2 {
+        right: 5%;
+        left:auto;
+    }
+    .main {
+        height: 700px;
+    }
+}

@@ -1,0 +1,115 @@
+.dws-menu [type="checkbox"]{
+ display: none;
+}
+.right_icon [type="checkbox"]{
+ display: none;
+}    
+ 
+.right_icon label.toggleMenu{
+ display: block;
+}  
+#golovna {
+    display: none;
+}
+.dws-menu label.toggleMenu img{
+    
+   
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+}  
+.mb{
+    display: flex;
+    margin-left: 15px;
+}
+.dws-menu label.toggleMenu{
+ color: white;
+ display: none;
+ padding: 25px 15px;
+ text-transform: uppercase;
+ font-size: 40px;
+ cursor: pointer;
+ position: relative;
+}    
+@media all and (max-width: 1100px) {
+    .dws-menu [type="checkbox"],
+.dws-menu label.toggleSubmenu ~ ul{
+    display: none;
+}
+.dws-menu label.toggleSubmenu{
+ position: absolute;
+ top: 0;
+ right: 0;
+ width: 100%;
+ height: 100%;
+ cursor: pointer;
+ display: block;
+}
+input.toggleMenu:checked ~ ul,
+input.toggleSubmenu:checked ~ ul{
+ display: block;
+ position: relative;
+}  
+    .container_menu_2 {
+        height: auto;
+    }
+    .container_menu_3 {
+        width: 98%;
+    }
+    #golovna {
+        display: flex;
+    }
+    .dws-menu > ul{
+        height: auto;
+    }
+    .menu_logo {
+        /*position: absolute;
+        right: 10px;
+        width: 90px;
+        height: 90px;*/
+        display: none;
+    }
+    .menu {
+        display: block;
+        height: auto;
+    }
+    .dws-menu{
+        overflow: hidden;
+    }
+    .dws-menu ul{
+        display: none;    
+    }   
+    .dws-menu label.toggleMenu{
+        display: flex;
+        align-items: center;
+    }   
+    input.toggleMenu:checked + label.toggleMenu{
+        
+        color: #fff;
+    }   
+    input.toggleMenu:checked ~ ul{
+        display: block;
+        width: 100%;
+    } 
+    input.toggleMenu:checked ~ ul li a{
+        justify-content: flex-start;
+        width: auto;
+        height: auto;
+        padding: 20px;
+        font-size: 40px;
+    } 
+    .dws-menu li a:hover{
+    
+    }
+    .dws-menu li > ul li ul{
+        position: absolute;
+        right: auto;
+        top: auto;
+    }
+    .container_menu_3 {
+        height: auto;
+    }
+    .second_block_right {
+        height: auto;
+    }
+}  

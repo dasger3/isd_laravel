@@ -1,0 +1,134 @@
+header {
+	font-family: "Roboto Condensed",Georgia,serif;
+}
+body {
+	font-family: "Roboto Condensed",Georgia,serif;
+}
+.main_e {
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.left_e {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    
+}
+.right_e {
+    display: flex;
+    flex-direction: column;
+    width: 65%
+}
+hr {
+    width: 100%;    
+    display: flex;
+}
+.container_contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    margin-top: 10px;
+    width: 10vw;
+}
+.container_sm{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.contact_icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.profile_icon {
+    width:20vw;
+    height:20vw;
+    
+}
+.container_category {
+    width: 100%;
+    margin-top: 20px;
+}
+.list_of_category {
+    height: 300px;
+    background-color: grey;
+}
+.heading6 {
+    font-size: 40px;
+    font-weight:bold;
+    margin: 0;
+}
+.heading7 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.heading8 {
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: justify;
+}
+.heading11 {
+    font-size: 26px;
+    text-decoration: none;
+}
+@media (max-width: 1400px){
+    .heading6 {
+        font-size: 36px;
+        font-weight:bold;
+    }
+    .heading7 {
+        font-size: 20px;
+    }
+    .heading8 {
+        font-size: 18px; 
+    }
+    .heading11 {
+        font-size: 16px;
+    }
+}
+@media (max-width: 1100px){
+    .left_e {
+        align-items: center;
+        width: 100%;    
+    }
+    .main_e {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .right_e {
+        width: 100%
+    }
+    .profile_icon {
+        width:500px;
+        height:500px;   
+    }
+    .container_sm {
+        width: 500px;
+       margin-top: 20px;
+        font-size: 36px;
+    }
+    .heading6 {
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    .heading7 {
+        font-size: 36px;
+    }
+    .heading8 {
+        font-size: 30px;
+    }
+    .heading11 {
+        font-size: 36px;
+    }
+    .contact_icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+    }
+}

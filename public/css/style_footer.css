@@ -1,0 +1,33 @@
+header {
+	font-family: "Roboto Condensed",Georgia,serif;
+}
+body {
+	font-family: "Roboto Condensed",Georgia,serif;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 1920px;
+    width: 100%;
+    height: 50px;
+    background-color: #32557b;
+    margin-top: 20px;
+}
+.container_footer {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    font-size: 15px;
+    color: white;
+}
+@media (max-width: 1000px){
+    .footer {
+        height: auto;
+        
+    }
+    .container_footer {
+        font-size: 30px;
+        padding: 10px 0px;
+    }
+}
